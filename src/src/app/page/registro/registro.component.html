@@ -1,0 +1,79 @@
+<header>
+  <nav>
+<img src="assets/img/jpg4.jpg" alt="">
+<p id="primeiro">TecnoMotor</p>
+
+   <p id="segundo">Soluções online para oficina do futuro</p>
+
+   <div class="nav-center">
+
+    <a href="#">Boletim tecnico</a>
+    <a href="#">Tecnomotor TV</a>
+    <a href="#">Facebook</a>
+    <a href="features">Features</a>
+  </div>
+
+  <div class=" nav-login">
+    <a href="#">Log In</a>
+    <a href="#">Register</a>
+   </div>
+   <nav class="menu-mobile">
+    <button class="action-mobile" (click)="trocaMenu()">
+      <i class="material-icons">{{estadoMenu ? 'close' : 'menu'}}</i>
+    </button>
+    <div div class="itens-mobile" [ngClass]="{'open': estadoMenu}">
+      <a href="registro">Registro</a>
+    <a href="#">Boletim tecnico</a>
+    <a href="#">Tecnomotor TV</a>
+    <a href="#">Log In</a>
+    <a href="#">Register</a>
+    <a href="#">Features</a>
+ </div>
+</nav>
+</nav>
+
+
+<div >
+
+  
+  <p>NOME</p>
+  <form action="">
+    <input type="nome" name="" id="">
+    <button>Confirma</button>
+  </form>
+  <p>IDENTIDADE</p>
+    <form action="">
+      <input type="identidade" number="" id="">
+      <button>Confirma</button>
+    </form>
+
+    <p>CPF</p>
+    <form action="">
+      <input type="cpf" number="" id="">
+      <button>Confirma</button>
+    </form>
+
+    <p>ENDEREÇO</p>
+    <form action="">
+      <input type="endereço" name="" id="">
+      <button>Confirma</button>
+    </form>
+
+    <p>CEP</p>
+    <form action="">
+      <input type="cep" number="" id="">
+      <button>Confirma</button>
+    </form>
+</div>
+
+
+</header>
+
+
+
+
+
+<footer>
+  <p>Copyright &copy; {{anoAtual}} TecnoMotor</p>
+</footer>
+

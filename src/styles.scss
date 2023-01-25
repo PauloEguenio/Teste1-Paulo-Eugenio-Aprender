@@ -1,0 +1,18 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 'material-icons/iconfont/material-icons.css';
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --purple: #584EDB;
+  --gray: #43455D;
+  --whiteHeader: #FBFBFC;
+  --white: #FFFFFF;
+}

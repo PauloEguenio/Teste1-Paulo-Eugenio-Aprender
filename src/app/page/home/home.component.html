@@ -1,0 +1,100 @@
+<header>
+  <nav>
+
+    <img src="assets/img/jpg2.jpg" atl="">
+
+    <p id="primeiro">TecnoMotor</p>
+
+   <p id="segundo">Soluções</p>
+
+   <div class="nav-center">
+    <a routerLink="registro">Registro</a>
+    <a href="#">Boletim tecnico</a>
+    <a href="#">Tecnomotor TV</a>
+    <a href="#">Facebook</a>
+    <a href="#">Features</a>
+  </div>
+
+  <div class=" nav-login">
+    <a href="#">Log In</a>
+    <a href="#">Cadastro</a>
+
+  </div>
+  <nav class="menu-mobile">
+  <button class="action-mobile" (click)="trocaMenu()">
+    <i class="material-icons">{{estadoMenu ? 'close' : 'menu'}}</i>
+  </button>
+  <div class="itens-mobile" [ngClass]="{'open': estadoMenu}">
+
+
+    <a href="registro">Registro</a>
+    <a href="#">Boletim tecnico</a>
+    <a href="#">Tecnomotor TV</a>
+    <a href="#">Log In</a>
+    <a href="#">Cadastro</a>
+    <a href="#">Features</a>
+
+
+
+  </div>
+</nav>
+</nav>
+<div class="banner">
+
+  <div class="card-1">
+    <h1>Cadastre-se gratuitamente e seja uma Oficina Oline</h1>
+    <p></p>
+    <p>Espaço reservado para sua oficina</p>
+    <form action="">
+      <input type="email" name="" id="">
+      <button>Subscribe</button>
+    </form>
+  </div>
+  <div class="card-2">
+    <img src="assets/img/jpg1.jpg" alt="">
+
+  </div>
+
+</div>
+</header>
+
+<main>
+  <div class="container"  id= "features">
+
+    <div class="card-1">
+
+      <div class="card">
+        <img src="assets/img/jpg3.jpg" alt="">
+        <h2>scanner</h2>
+        <p>diagnostico</p>
+        <button>Learn More</button>
+      </div>
+      </div>
+
+      <div class="card-2">
+        <div class="card">
+          <img src="assets/img/jpg4.jpg" alt="">
+          <h2>Atenção</h2>
+        <p>atenção ao sair com seu carro</p>
+       </div>
+
+       <div class="card">
+        <img src="assets/img/jpg6.jpg" alt="">
+        <h2>Manutenção</h2>
+        <p>sempre verifique os fusiveis</p>
+      </div>
+
+      <div>
+        <img src="assets/img/jpg5.jpg" alt="">
+        <h2>segurança</h2>
+        <p>sempre verifique os freios </p>
+      </div>
+
+
+      </div>
+</div>
+</main>
+
+<footer>
+  <p>Copyright &copy; {{anoAtual}} TecnoMotor</p>
+</footer>
